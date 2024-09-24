@@ -1,0 +1,74 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&display=swap');
+
+* {
+    font-family: "Sawarabi Mincho", serif;
+}
+
+body {
+    width: 960px;
+    margin: 0 auto;
+    margin-top: 100px;
+    background-color: rgb(168, 162, 122);
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+    background-color: rgb(255, 255, 110);
+    color: rgb(30, 216, 77);
+
+}
+
+h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 17px;
+    font-weight: lighter;
+}
+
+.text {
+    margin-top: 7px;
+    text-align: center;
+}
+
+.text_change {
+    margin-top: 50px;
+}
+
+.button {
+    margin-top: 20px;
+}
+
+form {
+    text-align: center;
+}
+
+table {
+margin: 0 auto;
+}
+
+
+footer {
+    margin: 0 auto;
+}
+
+.push {
+    display       : inline-block;
+    border-radius : 20%;          /* 角丸       */
+    font-size     : 15pt;        /* 文字サイズ */
+    text-align    : center;      /* 文字位置   */
+    cursor        : pointer;     /* カーソル   */
+    padding       : 12px 12px;   /* 余白       */
+    color: rgb(30, 216, 77);
+    background-color:  rgb(255, 255, 110);
+    line-height   : 0.5em;         /* 1行の高さ  */
+    transition    : .3s;         /* なめらか変化 */
+    border: none;
+}
+.push:hover {
+    color         : rgb(255, 255, 110);     /* 背景色     */
+    background    : #0026ff;     /* 文字色     */
+}
+
